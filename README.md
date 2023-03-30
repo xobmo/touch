@@ -20,6 +20,7 @@ Use RayCasting to find intersection point.
 Using the barycentric coordinates of the intersection and interpolation, calculate the uv coordinates.
 Calculate the local x/y axis for the texture/displacement map given the orientation of the fingertip.
 Sample the texture/displacement map.
+Output is the same as current 2d test -- 16 numbers on serial port.
 
 Bevy raycast mod https://docs.rs/bevy_mod_raycast/latest/bevy_mod_raycast/
 MediaPipe (hand tracking) Rust crate: https://lib.rs/crates/ux-mediapipe
